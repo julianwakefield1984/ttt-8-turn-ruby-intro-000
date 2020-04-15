@@ -13,9 +13,13 @@ def input_to_index(index)
   index = index.to_i - 1
 end
 
-valid_move? = 0
-def valid_move(board, index)
-  
+valid_move? = nil
+def valid_move(index)
+  if index == (1-9)
+    true
+  else
+    false
+  end
 end
 
 def move(board, index, current_player = "X")
