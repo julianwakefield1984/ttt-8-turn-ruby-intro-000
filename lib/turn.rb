@@ -15,7 +15,7 @@ end
 
 valid_move = nil
 def valid_move?(board, index)
-  if index >= 9
+  if board[index] >= 9
    valid_move = true
   else
     valid_move = false
