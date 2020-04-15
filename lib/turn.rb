@@ -17,3 +17,4 @@ valid_move? = 0
 def valid_move(board, index)
   
 end
+
