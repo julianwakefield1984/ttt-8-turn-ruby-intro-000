@@ -12,3 +12,8 @@ end
 def input_to_index(index)
   index = index.to_i - 1
 end
+
+valid_move? = 0
+def valid_move(board, index)
+  
+end
