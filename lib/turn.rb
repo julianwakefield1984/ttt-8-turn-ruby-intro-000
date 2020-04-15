@@ -14,8 +14,8 @@ def input_to_index(index)
 end
 
 
-def valid_move(index)
-  if index == (1-9)
+def valid_move(board, index)
+  if board[index] == (1-9)
     true
   else
     false
