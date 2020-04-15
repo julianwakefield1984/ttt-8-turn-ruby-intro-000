@@ -15,7 +15,7 @@ end
 
 
 def valid_move(board, index)
-  if board[index] == (1-9)
+  if index >= 9
     true
   else
     false
